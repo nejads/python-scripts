@@ -20,22 +20,23 @@ def binary_gap(N):
     return max_zero
 
 
+# Find unpaired element in an array.
+# Time complixity O(n^2)
 def find_unpaired_n2(A):
     result = -1
-
     for item in A:
         count = A.count(item)
         if count % 2 != 0:
             unpaired = item
-
     return result
 
 
+# Find unpaired element in an array.
+# Time complixity O(n)
 def find_unpaired_n1(A):
     result = 0
     for number in A:
         result ^= number
-
     return result
 
 
@@ -70,7 +71,6 @@ def main():
     test(find_unpaired_n1([42]), 42)
     test(find_unpaired_n1([1, 3, 1]), 3)
     test(find_unpaired_n1([1, 2, 1]), 2)
-
 
 
 # Standard boilerplate to call the main() function.
