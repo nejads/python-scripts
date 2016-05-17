@@ -28,9 +28,3 @@ if __name__ == '__main__':
         print 'usage ./MakeUrl.py INPUT'
         sys.exit(1)
     check(sys.argv[1])
-
-
-def my_lm(s):
-    return s[2]
-
-l.sort(lambda=my_lm)
