@@ -1,2 +1,3 @@
-# Python_scripts
-My python scripts which make my life easier ! 
+# Scripts
+
+My scripts which make my life easier !
